@@ -21,3 +21,28 @@ cyeah: subtracao.c
         
 clean:
     rm -rf *.o
+
+
+.PHONY = clean
+
+CC = gcc # compiler desired
+
+mega:
+    pwd
+    echo "Howdy"
+
+super:
+    ls -la
+
+ultra:
+    cd VVCSoftware_VTM/
+
+more:
+    echo "Hello"
+    pwd
+    clear  
+cyeah: mul.c
+    ${CC} mul.c -o mul.o
+        
+clean:
+    rm -rf *.o
